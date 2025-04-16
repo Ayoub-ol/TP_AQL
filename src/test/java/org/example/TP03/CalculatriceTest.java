@@ -22,7 +22,7 @@ public class CalculatriceTest {
         when(calculatrice.additionner(2, 3)).thenReturn(5);
 
         //TODO : Appel de la méthode à tester
-        // ...
+        int resultat = calculatrice.additionner(2, 3);
 
         //TODO : Vérification du résultat
         // ...
